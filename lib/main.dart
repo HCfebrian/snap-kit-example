@@ -41,7 +41,9 @@ class _MyAppState
       setState(() {
         _snapchatUser = user;
         if (user != null) {
-          print("bitmoji url ${user.bitmojiUrl}");
+          print("Display Name ${user.displayName}");
+          print("ExternalId ${user.externalId}");
+          print("Bitmoji URL ${user.bitmojiUrl}");
         }
       });
     });
